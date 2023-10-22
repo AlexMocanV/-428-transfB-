@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    int n,k,baza,y,nr=0,i;
+    cin>>n>>k;
+   for(i=k-1;i>=0;i--)
+   {
+       cin>>y;
+       nr=nr+pow(n,i)*y;
+        
+   }
+    cout<<nr;
+
+    return 0;
+}
